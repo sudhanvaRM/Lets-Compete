@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Let's Compete</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <img src="Img/Logo.png" alt=""  id="logo">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="  Search for Competitions">
+            <button id="search-btn"><i class="fa fa-search" style="color: #31304d;"></i></button>
+        </div>
+        <div class="tags">
+            <div class="links">
+                <div><i class="fa-solid fa-house" style="color: #31304d;"></i></div>
+                <a href="#">Home</a>
+            </div>
+            <div class="links">
+                <i class="fa-solid fa-star" style="color: #31304d;"></i>
+                <a href="#">About</a>
+            </div>
+            <Button class="btn" id="hostBtn"><i class="fa-solid fa-bullhorn" style="color: #31304d;"></i>  Host</Button>
+            <Button class="btn" id="signupButton"><i class="fa-solid fa-user" style="color: #31304d;"></i>  Sign In</Button>
+            <img src="" alt="">
+        </div>  
+    </nav>
+
+    <!--Pop Up Window for Sign Up-->
+
+    <div class="popup" id="signupPopup">
+        <span class="close" id="closePopup">&times;</span>
+        <div class="popup-content">
+            
+            <!-- Your signup content goes here -->
+            <img src="Img/Logo.png" alt="">
+            <span class="popUpHeader"><i class="fa-solid fa-child-reaching fa-2xl" style="color: #31304d;"></i>Welcome Back</span>
+            <div class="signInBox">
+                <i class="fa-solid fa-user" style="color: #31304d;"></i>
+                <input type="text" placeholder="Username or Email" class="textbox">
+            </div>
+            <div class="signInBox">
+               <i class="fa-solid fa-lock" style="color: #31304d;"></i>
+               <input type="password" placeholder="Password" class="textbox">
+            </div>
+            
+            <button id="submitBtn">Login</button>
+            <span class="line"></span>
+            <button id="signUp"><i class="fa-brands fa-google fa-xl"></i>  Continue with Google</button>
+            <a href="#" class="signUpTag">Don't Have an account?? Sign Up</a>
+        </div>
+    </div>
+
+    <!--Hero Section-->
+    <div class="hero-section">
+         <div class="openText">
+            <div class="quote">
+                <p>IF YOU ARE A TRUE WARRIOR, </p>
+                <p>COMPETITION DOESN'T SCARE YOU.</p>
+                <p>IT MAKES YOU BETTER.. </p>
+                <span></span>
+             </div>
+    
+             <div class="quoteImg">
+                <img src="Img/competition.png" alt="">
+             </div>
+         </div>
+         
+
+         <!--Events Container-->
+
+         <div class="events">
+            
+            <div class="header">
+                <img src="Img/Event-logo.png" alt="">
+                <span>Ocean of Opportunities...</span>
+            </div>
+            <div class="eventsContainer">
+              <div class="card">
+                 <img src="Img/debate.png" alt="">
+                 
+                 <span class="title">Maria Philip Future Leaders Debate 2023-2024</span>
+                 
+                 <div class="organizer">
+                    <i class="fa-solid fa-school" style="color: #31304d;"></i>
+                    <div class="name">
+                        Xavier Institute of Management And Entrepreneurship (XIME), Bangalore
+                    </div>
+                </div>
+                 <div class="location">
+                    <i class="fa-solid fa-location-dot"  style="color: #30314d;"></i>
+                    <span>Online</span>
+                 </div>
+                 <div class="Date">
+                    <i class="fa-regular fa-calendar" style="color: #30314d;"> </i>
+                     <span>7th December 2023</span>
+                 </div>
+
+                 <span class="category">#Debates</span>
+                 <button ><i class="fa-solid fa-registered" style="color: #31304d;"></i>egister</button>
+              </div>
+
+              <div class="card">
+                <img src="Img/Drawing.png" alt="">
+                <span>Title</span>
+                <p>Organizer</p>
+                <span>Date</span>
+                <span>Category</span>
+                <button>Register</button>
+             </div>
+
+             <div class="card">
+                <img src="Img/Hackathon.png" alt="">
+                <span>Title</span>
+                <p>Organizer</p>
+                <span>Date</span>
+                <span>Category</span>
+                <button >Register</button>
+             </div>
+
+             <div class="card">
+                <img src="Img/Poster Presentation.png" alt="">
+                <span>Title</span>
+                <p>Organizer</p>
+                <span>Date</span>
+                <span>Category</span>
+                <button>Register</button>
+             </div>
+
+             <div class="card">
+                <img src="Img/Writing.png" alt="">
+                <span>Title</span>
+                <p>Organizer</p>
+                <span>Date</span>
+                <span>Category</span>
+                <button>Register</button>
+             </div>
+            </div>
+         </div>
+
+         
+
+    <!--Footer-->
+    <footer class="footerBar">
+          <div class="socialIcons">
+             
+          </div>
+        
+
+    
+    </footer>
+    <div class="Designer">
+        <i class="fa-solid fa-code"></i>  Developed By SUDHANVA
+    </div>
+
+<script src="JS/script.js"></script>
+</body>
+</html>

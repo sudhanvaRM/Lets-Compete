@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/host.css">
+    <title>Host</title>
+</head>
+<body>
+     <!--Navbar-->
+     <nav class="navbar">
+        <img src="Img/Logo.png" alt=""  id="logo">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="  Search for Competitions">
+            <button id="search-btn"><i class="fa fa-search" style="color: #31304d;"></i></button>
+        </div>
+        <div class="tags">
+            <div class="links">
+                <div><i class="fa-solid fa-house" style="color: #31304d;"></i></div>
+                <a href="#">Home</a>
+            </div>
+            <div class="links">
+                <i class="fa-solid fa-star" style="color: #31304d;"></i>
+                <a href="#">About</a>
+            </div>
+            <Button class="btn" id="hostBtn"><i class="fa-solid fa-bullhorn" style="color: #31304d;"></i>  Host</Button>
+            <Button class="btn" id="signupButton"><i class="fa-solid fa-user" style="color: #31304d;"></i>  Sign In</Button>
+            <img src="" alt="">
+        </div>  
+    </nav>
+
+    <!-- Event Details -->
+    <div class="form">
+        <h2>Competition Details</h2>
+        <div class="fields">
+            <label for="">Competition Type <span >*</span></label>
+            <select name="" id="type">
+                <option value="Debate">Debate</option>
+                <option value="Writing">Writing</option>
+                <option value="Poster">Poster Presentation</option>
+                <option value="Hackathon">Hackathon</option>
+                <option value="Drawing">Drawing</option>
+            </select>
+        </div>
+        <div class="fields">
+            <label for="">Competition Title <span>*</span></label>
+            <input type="text" placeholder="Enter Title" required>
+        </div>
+
+        <div class="fields">
+            <label for="">Organization <span>*</span></label>
+            <input type="text" placeholder="Enter Organization" required>
+        </div>
+
+        <div class="fields">
+            <label for="">Registration URL <span>*</span></label>
+            <input type="text" placeholder="Enter Registration Url" required>
+        </div>
+
+        <div class="fields">
+            <label for="">Mode of Competition <span>*</span></label>
+            <select name="" id="mode">
+                <option value="online">Online</option>
+                <option value="offline">Offline</option>
+            </select>
+        </div>
+
+        <div class="fields">
+            <label for="">Date <span>*</span></label>
+            <input type="date" id="date" required>
+        </div>
+
+        <div class="fields">
+            <Button>SUBMIT</Button>
+        </div>
+
+
+
+
+       
+
+    </div>
+</body>
+</html>
